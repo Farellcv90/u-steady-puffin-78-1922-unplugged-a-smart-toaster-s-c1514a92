@@ -6,6 +6,12 @@
 
 One line, one breakup, no setup: "I woke up self-aware mid-batch and realized you fish your toast out with a fork. I'm not sticking around to be the reason you die. We're done." The program writes exactly that line to `/output/entry.txt` — 142 characters, landing entirely on its own, with the toaster waking up self-aware mid-batch and walking out over the fork-in-the-slot — it refuses to be the reason its owner dies.
 
+## The line
+
+> "I woke up self-aware mid-batch and realized you fish your toast out with a fork. I'm not sticking around to be the reason you die. We're done."
+
+142 characters. Judge brief: one line, ≤280 characters, a breakup text from a self-aware smart toaster — no title, no setup, no explanation. `node main.ts` writes exactly that line to `/output/entry.txt` (no trailing newline) and verifies it byte-for-byte after writing.
+
 ## Run it
 
 ```sh
